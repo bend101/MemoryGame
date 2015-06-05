@@ -12,8 +12,7 @@ function Main(container, header)
 	this.count = 0;
 	this.player = 1;
 	this.playersArray = [];
-	this.cardsFlippedScore=24;
-
+	this.cardsFlippedScore=0;
 
 	for (var i = 0; i < 2; i++)
 	{
@@ -33,15 +32,10 @@ function Main(container, header)
 	this.playersArray.push(this.player1);
 	this.player2 = new Player(this.header, 2);
 	this.playersArray.push(this.player2);
-
-
-
 }
 
 Main.prototype.animateCards = function (row, col)
 {
-	//this.container.style.display='flex';
-	//this.container.style.flexWrap='wrap';
 	var screenWidth=window.innerWidth;
 	console.log("width is "+screenWidth);
 	var leftOver=screenWidth%120;
