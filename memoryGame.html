@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html style="height:100%; padding:0px; margin:0px; overflow:hidden;"  manifest="memoryGame.appcache">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/icon57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icon74.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icon114.png" />
+    <title></title>
+    <script src="Card.js"></script>
+    <script src="Main.js"></script>
+    <script src="Cell.js"></script>
+    <script src="Player.js"></script>
+    <link rel="stylesheet" type="text/css" href="memoryGame.css"/>
+
+    <script>
+        window.onload=function()
+        {
+            var main=new Main(document.getElementById("container"),document.getElementById("header"));
+        }
+    </script>
+</head>
+<body style="height:100%; padding:0px; margin:0px; overflow:hidden;" bgcolor="#009E3F">
+
+<div id="header" class="header"></div>
+<div id="container" class="container"></div>
+
+
+</body>
+</html>
