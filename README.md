@@ -13,5 +13,10 @@ when it is clicked.
 * Cards are randomly produced at the start of each game, so their positions on the screen is always different.
 
 
+[Click here to play (click on the card for the cards to be dealt)](https://rawgit.com/bend101/MemoryGame/master/memoryGame.html)
+
+
+
+
 
 
